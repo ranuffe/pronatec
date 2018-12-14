@@ -7,9 +7,120 @@
         <link rel="stylesheet" type="text/css" href="/pronatec/estilo.css">
 
     </head>
+    <style type="text/css">
+
+    body{
+        color:red;     
+    }
+          #Conteudo{
+
+            margin-top: 100px;
+          }    
+.content {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  line-height: 40px;
+  font-family: 'Muli';
+  color: black;
+  height: 160px;
+  overflow: hidden;
+}
+
+.visible {
+  font-weight: 600;
+  overflow: hidden;
+  height: 40px;
+  padding: 0 40px;
+}
+.visible:before {
+  content: '[';
+  left: 0;
+  line-height: 40px;
+}
+.visible:after {
+  content: ']';
+  position: absolute;
+  right: 0;
+  line-height: 40px;
+}
+.visible:after, .visible:before {
+  position: absolute;
+  top: 0;
+  color: #16a085;
+  font-size: 42px;
+  animation: 2s linear 0s normal none infinite opacity;
+}
+
+p {
+  display: inline;
+  float: left;
+  margin: 0;
+}
+
+#new {
+  margin-top: 0;
+  padding-left: 110px;
+  text-align: left;
+  list-style: none;
+  animation: 6s linear 0s normal none infinite change;
+}
+
+ul li {
+  line-height: 40px;
+  margin: 0;
+}
+
+@keyframes opacity {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes change {
+  0%, 12%, 100% {
+    transform: translateY(0);
+  }
+  17%,29% {
+    transform: translateY(-25%);
+  }
+  34%,46% {
+    transform: translateY(-50%);
+  }
+  51%,63% {
+    transform: translateY(-75%);
+  }
+  68%,80% {
+    transform: translateY(-50%);
+  }
+  85%,97% {
+    transform: translateY(-25%);
+  }
+}
+
+
+        </style>
+
     <body>
     
+        <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
         
+
+        <div class='content'>
+          <div class='visible'>
+            <p>XPiauí </p>
+            <ul id="new">
+                <li>Notícias!</li>
+              <li>Entreterimento!</li>
+              <li>Novidades!</li>
+              <li>.net !</li>
+            </ul>
+          </div>
+        </div>
     
         <nav id="menu">
 
@@ -27,20 +138,19 @@
 
         <div id="Conteudo">
 
-            <h1> "BEM VINDO(A)"
-                    "Xpiaui"
-                visão de todas as noticias</h1>
+            <h1>
+               XPiauí-BR 
+            </h1>
 
-            <p>Este site tem como objetivo "informar as noticias da Macrorregião",baseado em informações coletadas de outros site de noticias confiaveis tipo: <a href="https://www.G1.com/Noticias do Piaui"> Um dos sites de infomações coletaveis</a>. Ou seja, implementar o meu site <a href="/2018_2/Aulas/Aula_05/outros.html">página</a>. </p> 
+            <p>Este site tem como objetivo "informar as noticias da Macrorregião",baseado em informações coletadas de outros site de noticias confiaveis tipo: <a href="https://www.G1.com/Noticias do Piaui"> Um dos sites de infomações coletaveis</a>. Ou seja, implementar o meu site <a href="/2018_2/Aulas/Aula_05/outros.html">página</a> </p> 
 
             <p> tenha as melhores notícias apartir de agora </a>
-            
             
 
         </div>
 
         <div id="Rodape">
-            <p>Site desenvolvido para as aulas práticas, da disciplina Implantação e Administração de Serviços Web, do curso medio-técnico em Redes de Computadores, vinculado ao PRONATEC - Picos.</p> 
+            <p>Site desenvolvido para dar noticias em primeira mão<s2> </p> 
         </div>
 
     </body>
