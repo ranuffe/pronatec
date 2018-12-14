@@ -40,7 +40,7 @@ function showDivs(n) {
     }
    if(n==4){
     TrocaLegenda("Stallone aparece com arco e flecha em Rambo V");
-    TrocaNot("testes asfafgadfhadfhadfhadghadfhadfh");
+    TrocaNot("Sylvester Stallone postou uma imagem dos bastidores de Rambo V que levou os fãs à loucura. O herói aparece empunhando seu clássico arco. Confira:.</p> <p>Seu personagem de soldado-guerreiro icônico, John Rambo, está prestes a chegar aos cinemas quase dez anos depois de sua última sequência, Rambo IV que estreou em 2008.</p> <p>+ Rambo 5: Primeiras informações sobre a trama são divulgadas</p> <p>Os personagens do longa serão Robert Siedel, um americano que desempenha um papel na operação de tráfico sexual e é sequestrado por John Rambo (Stallone) para recuperar informações sobre meninas desaparecidas. Os atores Michael Derek e Cole Gleason são cogitados para o papel.</p> <p>Rambo V ainda não tem previsão de estreia.</p> <p>Confira a homenagem do Cineclick aos 35 anos de Rambo:");
   }
 
 
