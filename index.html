@@ -130,12 +130,30 @@ ul li {
                 <li><a href="/pronatec/outros.html">noticias</a></li>
                 <li><a href="/pronatec/contato.html">Contato para mais informações</a></li>
                 <label style="#006400: 10px"></label>||
-                <li><a href="https://alexandrepronatec.github.io/2018_2/Aulas.html">só para pessoas autorizadas</a></li>
+                               
+                <input type="submit" onclick="Entrar();" value="Site disciplina" />
 
             </ul>
 
         </nav>
+        <script type="text/javascript">
+            var nome;
+            
+            function Entrar(){
+             do {
+               nome = prompt ("Para acessar o site da disciplina, Digite a senha:");
+                
+            } while (nome == null || nome == "");
+                if(nome == "12345"){
+                    alert("Senha correta");
+                    window.location.href = "https://alexandrepronatec.github.io/2018_2/Aulas.html";
+                }else{
+                    alert("Senha incorreta");
+                }
 
+            }
+               
+        </script>
         <div id="Conteudo">
 
             <h1>

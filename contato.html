@@ -18,15 +18,32 @@
                 <li><a href="/pronatec/outros.html">Noticias</a></li>
                 <li><a href="/pronatec/contato.html">Contato para mais informações</a></li>
                 <label style="width: 10px"></label>||
-                <li><a href="https://alexandrepronatec.github.io/2018_2/Aulas.html">só para pessoas autorizadas</a></li>
-
+                 
+                 <input type="submit" onclick="Entrar();" value="Site disciplina" />
             </ul>
             
             </nav>
+<script type="text/javascript">
+            var nome;
+            
+            function Entrar(){
+             do {
+               nome = prompt ("Para acessar o site da disciplina, Digite a senha:");
+                
+            } while (nome == null || nome == "");
+                if(nome == "12345"){
+                    alert("Senha correta");
+                    window.location.href = "https://alexandrepronatec.github.io/2018_2/Aulas.html";
+                }else{
+                    alert("Senha incorreta");
+                }
 
+            }
+               
+        </script>
         	<div id="Conteudo">
 
-                <h1>Aula Prática 4 - Página de Contato</h1>   
+                <h1>Contatos</h1>   
 
                 <p class="nome">
                     <input type="text" id="nomeid" placeholder="Alexandre Ramos" required="required" name="nome" />
